@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CurriculumVitaeApp.MainPage">
+
+    <ScrollView>
+        <StackLayout Padding="20">
+            <!-- Header Section -->
+            <StackLayout Orientation="Horizontal" Spacing="15">
+                <Image Source="profile_picture.jpg" WidthRequest="80" HeightRequest="80" />
+                <StackLayout VerticalOptions="Center">
+                    <Label Text="José Martínez" FontSize="24" FontAttributes="Bold"/>
+                    <Label Text="PUESTO OCUPADO / BUSCADO" FontSize="14" />
+                </StackLayout>
+            </StackLayout>
+
+            <!-- Contact Section -->
+            <StackLayout Padding="0,20,0,0">
+                <Label Text="CONTACTO" FontSize="18" FontAttributes="Bold"/>
+                <Label Text="Telefono: 999 999 999" />
+                <Label Text="Email: jose.martinez@gmail.com" />
+                <Label Text="Ubicación: México DF" />
+                <Label Text="LinkedIn: linkedin.com/jose-martinez" />
+            </StackLayout>
+
+            <!-- Idiomas Section -->
+            <StackLayout Padding="0,20,0,0">
+                <Label Text="IDIOMAS" FontSize="18" FontAttributes="Bold"/>
+                <Label Text="Español: Nativo" />
+                <Label Text="Inglés: Bilingüe (TOEIC 950)" />
+                <Label Text="Francés: Intermedio (B2)" />
+            </StackLayout>
+
+            <!-- Aptitudes Section -->
+            <StackLayout Padding="0,20,0,0">
+                <Label Text="APTITUDES" FontSize="18" FontAttributes="Bold"/>
+                <Label Text="Inteligencia emocional" />
+                <Label Text="Espíritu crítico" />
+                <Label Text="Trabajo en equipo" />
+                <Label Text="Capacidad de análisis" />
+                <Label Text="Habilidades físicas" />
+            </StackLayout>
+
+            <!-- Habilidades Section -->
+            <StackLayout Padding="0,20,0,0">
+                <Label Text="HABILIDADES" FontSize="18" FontAttributes="Bold"/>
+                <Label Text="Acondicionamiento físico" />
+                <Label Text="Creación de eventos deportivos" />
+                <Label Text="Proyectos sociales" />
+                <Label Text="Ofimática" />
+                <Label Text="Tenis" />
+            </StackLayout>
+
+            <!-- Otros Intereses Section -->
+            <StackLayout Padding="0,20,0,0">
+                <Label Text="OTROS INTERESES" FontSize="18" FontAttributes="Bold"/>
+                <Label Text="Creador de vinotecas" />
+                <Label Text="Paseos en bicicleta" />
+                <Label Text="Lectura de guías de viaje" />
+            </StackLayout>
+
+            <!-- Perfil Section -->
+            <StackLayout Padding="0,20,0,0">
+                <Label Text="PERFIL" FontSize="18" FontAttributes="Bold"/>
+                <Label Text="Trabajador Social con 4 años de experiencia en proyectos colectivos. Mi objetivo es lograr que los jóvenes obtengan acceso a la educación superior mediante logros deportivos." />
+            </StackLayout>
+
+            <!-- Experiencia Laboral Section -->
+            <StackLayout Padding="0,20,0,0">
+                <Label Text="EXPERIENCIA LABORAL" FontSize="18" FontAttributes="Bold"/>
+
+                <Label Text="Trabajador Social" FontAttributes="Bold"/>
+                <Label Text="México DF, 2022 – Actualmente" />
+                <Label Text="• Coordinar y mediar entre los equipos de ayuda psicológica a jóvenes y niños en exclusión social." />
+                <Label Text="• Organizar el equipo médico y de miembros involucrados en proyectos deportivos." />
+                <Label Text="• Manejo de necesidades estratégicas y logísticas para las diferentes áreas del deporte." />
+                <Label Text="• Proponer ejercicios físicos acordes." />
+                <Label Text="• Promover actividades deportivas extracurriculares en los involucrados." />
+
+                <Label Text="Trabajador Social" FontAttributes="Bold"/>
+                <Label Text="México DF, 2020 – 2022" />
+                <Label Text="• Organización y seguimiento de casos para jóvenes con problemas en áreas de conflicto." />
+                <Label Text="• Aplicación de medidas innovadoras ajustadas a medidas preventivas para jóvenes en situación de vulnerabilidad y programas sociales." />
+
+                <Label Text="Trabajador Social (Prácticas)" FontAttributes="Bold"/>
+                <Label Text="Zaragoza, España, 2019 – 2020" />
+                <Label Text="• Coordinación de espacios de integración para jóvenes migrantes." />
+                <Label Text="• Monitoreo de actividades de educación y deporte adaptado." />
+                <Label Text="• Coordinación de áreas deportivas." />
+            </StackLayout>
+
+            <!-- Formación Section -->
+            <StackLayout Padding="0,20,0,0">
+                <Label Text="FORMACIÓN" FontSize="18" FontAttributes="Bold"/>
+
+                <Label Text="Grado de Trabajo Social" FontAttributes="Bold"/>
+                <Label Text="ESMA, Madrid 2012 – 2015" />
+
+                <Label Text="Licenciatura Profesional" FontAttributes="Bold"/>
+                <Label Text="Universidad de la Frontera, México DF, 2011 – 2012" />
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
